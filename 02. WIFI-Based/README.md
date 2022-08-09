@@ -10,4 +10,9 @@ Professor: <br>
 
 ## Description
 In this course we implemented three different sets of projects as a team of two. We collaborated equally in implementation of the hardware as well as the software (coding). <br>
-The projects cover a variety of concepts and subjects in the IoT field. They start from simple smart lighting of the streets and continue to 
+The projects cover a variety of concepts and subjects in the IoT field. They start from simple smart lighting of the streets and continue to more complex implementations including HTTP and MQTT protocols alongside the implementation of two servers with their databases. <br>
+The detailed explanations of each set of the projects can be found in their project folders. <br>
+## Projects
+01. [Smart-Devices] ()
+02. [WIFI-Based] ()
+03. [MQTT-HTTP-Based] ()
