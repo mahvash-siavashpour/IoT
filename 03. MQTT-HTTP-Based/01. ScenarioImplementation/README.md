@@ -29,9 +29,20 @@ All the information needed to connect to the http server and hiveMQ Cloud broker
 #### b. Requiements.txt
 
 ## Deployment Instructions
+### Server Side
 ```
 Install the mentioned requirements for http-server and run the app.py file in this folder
 ```
 ```
 Install the mentioned requirements for local_server and run local_server.py and wait for a while to receive the message "local server login successfully"
 ```
+### Client Side
+Follow the instruntions is [here](https://console.hivemq.cloud/clients/arduino-esp8266?uuid=2124b8ecf14e4692b62288592e5c4a12) to install the libraries. We need to install these libraries:
+- littlefs
+- ntpclient
+- pubsubclient<br>
+
+We need to upload the certificate in the NodeMCU board. You can eithrt use the certificate I provided or use your own. <br>
+In order to upload the certificate go to ``` Tools>ESP8266 LittleFS Data Upload ```
+<br>
+Finally you hve to program the code on the board and wait for the MQTT and HTTP connections to be established.
